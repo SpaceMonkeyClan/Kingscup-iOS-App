@@ -83,10 +83,12 @@ struct WelcomeScreen: View {
             appContainer.destinationState.destination = .guide
         }
     }
-    
+    //for "openOptionsMenu" when uncommented
+    /*
     private func openOptionsMenu() {
         
     }
+ */
 }
 
 struct WelcomeScreen_Previews: PreviewProvider {
