@@ -1,4 +1,4 @@
-# Kings-Cup
+# Kings Cup iOS Drinking Game
 Classic drinking game on iOS/iPadOS
 
 | ![](images/welcomeLight.gif) | ![](images/welcomeDark.gif) |
