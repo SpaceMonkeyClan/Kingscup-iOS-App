@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A06C65425FC33B200826A08 /* HowToPlayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06C65325FC33B200826A08 /* HowToPlayScreen.swift */; };
+		0A2C145E25FC91B900DE9746 /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C145D25FC91B900DE9746 /* AnimatedBackground.swift */; };
+		0A2C146225FCB52700DE9746 /* UserInterfaceSizeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C146125FCB52700DE9746 /* UserInterfaceSizeClass.swift */; };
+		0A5C6A4125F573340017AF63 /* color-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C6A4025F573340017AF63 /* color-extension.swift */; };
+		0A5C6A5325F602480017AF63 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C6A5225F602480017AF63 /* PlayingCard.swift */; };
+		0A5C6A5B25F6E0170017AF63 /* MenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C6A5A25F6E0170017AF63 /* MenuScreen.swift */; };
+		0A5C6A5E25F6E0630017AF63 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C6A5D25F6E0630017AF63 /* WelcomeScreen.swift */; };
+		0A5C6A6225F6E3190017AF63 /* SelectionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C6A6125F6E3190017AF63 /* SelectionButtonStyle.swift */; };
+		0A74DB6B25FD676000C62332 /* RandomAnimatedGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A74DB6A25FD676000C62332 /* RandomAnimatedGrid.swift */; };
+		0AB3C51725F6F681004C3EE2 /* FlipEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3C51625F6F681004C3EE2 /* FlipEffect.swift */; };
+		0AB3C54425F73068004C3EE2 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3C54325F73068004C3EE2 /* Image+Extension.swift */; };
+		0AD6F53E25F342920078B6FF /* King_s_CupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6F52B25F342870078B6FF /* King_s_CupApp.swift */; };
+		0AD6F53F25F342920078B6FF /* King_s_CupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD6F52B25F342870078B6FF /* King_s_CupApp.swift */; };
+		0AD6F54225F342920078B6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD6F52D25F342920078B6FF /* Assets.xcassets */; };
+		0AD6F54325F342920078B6FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD6F52D25F342920078B6FF /* Assets.xcassets */; };
+		0AE8186D25F985A800C78989 /* GameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8186C25F985A800C78989 /* GameHUD.swift */; };
+		0AE8187125F98C1400C78989 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8187025F98C1400C78989 /* DragState.swift */; };
+		0AE8187525F9915100C78989 /* CurrentCardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8187425F9915100C78989 /* CurrentCardDetail.swift */; };
+		0AE8188125F9974200C78989 /* CardBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8188025F9974200C78989 /* CardBackView.swift */; };
+		0AE8188525F998A500C78989 /* CardPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8188425F998A500C78989 /* CardPile.swift */; };
+		0AEBBE8C25F34C1F0035CB24 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBBE8B25F34C1F0035CB24 /* Rank.swift */; };
+		0AEBBE9025F34C5C0035CB24 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBBE8F25F34C5C0035CB24 /* Suit.swift */; };
+		0AEBBE9425F34C740035CB24 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBBE9325F34C740035CB24 /* Card.swift */; };
+		0AEBBE9E25F34F290035CB24 /* UsedCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBBE9D25F34F290035CB24 /* UsedCardsView.swift */; };
+		0AEBBEB225F362490035CB24 /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBBEB125F362490035CB24 /* GameScreen.swift */; };
+		0AEBBEB625F3626B0035CB24 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBBEB525F3626B0035CB24 /* GameViewModel.swift */; };
+		0AFEB68625FC7967002BF59A /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEB68525FC7967002BF59A /* MotherView.swift */; };
+		0AFEB68E25FC79AA002BF59A /* AppStateContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEB68D25FC79AA002BF59A /* AppStateContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A06C65325FC33B200826A08 /* HowToPlayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayScreen.swift; sourceTree = "<group>"; };
+		0A2C145D25FC91B900DE9746 /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
+		0A2C146125FCB52700DE9746 /* UserInterfaceSizeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInterfaceSizeClass.swift; sourceTree = "<group>"; };
+		0A5C6A4025F573340017AF63 /* color-extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "color-extension.swift"; sourceTree = "<group>"; };
+		0A5C6A5225F602480017AF63 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		0A5C6A5A25F6E0170017AF63 /* MenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreen.swift; sourceTree = "<group>"; };
+		0A5C6A5D25F6E0630017AF63 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		0A5C6A6125F6E3190017AF63 /* SelectionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionButtonStyle.swift; sourceTree = "<group>"; };
+		0A74DB6A25FD676000C62332 /* RandomAnimatedGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAnimatedGrid.swift; sourceTree = "<group>"; };
+		0AB3C51625F6F681004C3EE2 /* FlipEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipEffect.swift; sourceTree = "<group>"; };
+		0AB3C54325F73068004C3EE2 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		0AD6F52B25F342870078B6FF /* King_s_CupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King_s_CupApp.swift; sourceTree = "<group>"; };
+		0AD6F52D25F342920078B6FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AD6F53225F342920078B6FF /* King's Cup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "King's Cup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD6F53525F342920078B6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD6F53A25F342920078B6FF /* King's Cup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "King's Cup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AD6F53C25F342920078B6FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD6F53D25F342920078B6FF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0AE8186C25F985A800C78989 /* GameHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHUD.swift; sourceTree = "<group>"; };
+		0AE8187025F98C1400C78989 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		0AE8187425F9915100C78989 /* CurrentCardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentCardDetail.swift; sourceTree = "<group>"; };
+		0AE8188025F9974200C78989 /* CardBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackView.swift; sourceTree = "<group>"; };
+		0AE8188425F998A500C78989 /* CardPile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPile.swift; sourceTree = "<group>"; };
+		0AEBBE8B25F34C1F0035CB24 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		0AEBBE8F25F34C5C0035CB24 /* Suit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		0AEBBE9325F34C740035CB24 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0AEBBE9D25F34F290035CB24 /* UsedCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedCardsView.swift; sourceTree = "<group>"; };
+		0AEBBEB125F362490035CB24 /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		0AEBBEB525F3626B0035CB24 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		0AFEB68525FC7967002BF59A /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		0AFEB68D25FC79AA002BF59A /* AppStateContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AD6F52F25F342920078B6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD6F53725F342920078B6FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A06C64F25FC2F8A00826A08 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				0AE8186C25F985A800C78989 /* GameHUD.swift */,
+				0AE8188025F9974200C78989 /* CardBackView.swift */,
+				0AE8188425F998A500C78989 /* CardPile.swift */,
+				0A5C6A5225F602480017AF63 /* PlayingCard.swift */,
+				0AE8187425F9915100C78989 /* CurrentCardDetail.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		0A06C65225FC33A500826A08 /* HowToPlay */ = {
+			isa = PBXGroup;
+			children = (
+				0A06C65325FC33B200826A08 /* HowToPlayScreen.swift */,
+			);
+			path = HowToPlay;
+			sourceTree = "<group>";
+		};
+		0A2C145C25FC918900DE9746 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C145D25FC91B900DE9746 /* AnimatedBackground.swift */,
+				0A74DB6A25FD676000C62332 /* RandomAnimatedGrid.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A5C6A3F25F5731F0017AF63 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C6A4025F573340017AF63 /* color-extension.swift */,
+				0A5C6A6125F6E3190017AF63 /* SelectionButtonStyle.swift */,
+				0AB3C54325F73068004C3EE2 /* Image+Extension.swift */,
+				0AB3C51625F6F681004C3EE2 /* FlipEffect.swift */,
+				0A2C146125FCB52700DE9746 /* UserInterfaceSizeClass.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0A5C6A4525F5A5BC0017AF63 /* MenuScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C6A5A25F6E0170017AF63 /* MenuScreen.swift */,
+			);
+			path = MenuScreen;
+			sourceTree = "<group>";
+		};
+		0A5C6A5C25F6E0560017AF63 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A5C6A5D25F6E0630017AF63 /* WelcomeScreen.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		0AD6F52525F342870078B6FF = {
+			isa = PBXGroup;
+			children = (
+				0AD6F52A25F342870078B6FF /* Shared */,
+				0AD6F53425F342920078B6FF /* iOS */,
+				0AD6F53B25F342920078B6FF /* macOS */,
+				0AD6F53325F342920078B6FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AD6F52A25F342870078B6FF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0A2C145C25FC918900DE9746 /* Views */,
+				0AFEB69125FC79AF002BF59A /* ViewModel */,
+				0A5C6A3F25F5731F0017AF63 /* Utilities */,
+				0AEBBE9C25F34F150035CB24 /* Screens */,
+				0AEBBE8A25F34C150035CB24 /* Models */,
+				0AD6F52B25F342870078B6FF /* King_s_CupApp.swift */,
+				0AD6F52D25F342920078B6FF /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0AD6F53325F342920078B6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD6F53225F342920078B6FF /* King's Cup.app */,
+				0AD6F53A25F342920078B6FF /* King's Cup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AD6F53425F342920078B6FF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0AD6F53525F342920078B6FF /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0AD6F53B25F342920078B6FF /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0AD6F53C25F342920078B6FF /* Info.plist */,
+				0AD6F53D25F342920078B6FF /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		0AEBBE8A25F34C150035CB24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AEBBE8B25F34C1F0035CB24 /* Rank.swift */,
+				0AEBBE8F25F34C5C0035CB24 /* Suit.swift */,
+				0AEBBE9325F34C740035CB24 /* Card.swift */,
+				0AE8187025F98C1400C78989 /* DragState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0AEBBE9C25F34F150035CB24 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0AFEB68425FC7957002BF59A /* Home */,
+				0A06C65225FC33A500826A08 /* HowToPlay */,
+				0A5C6A5C25F6E0560017AF63 /* WelcomeScreen */,
+				0A5C6A4525F5A5BC0017AF63 /* MenuScreen */,
+				0AEBBEB025F362360035CB24 /* GameScreen */,
+				0AEBBEA125F352EE0035CB24 /* UsedCardsView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0AEBBEA125F352EE0035CB24 /* UsedCardsView */ = {
+			isa = PBXGroup;
+			children = (
+				0AEBBE9D25F34F290035CB24 /* UsedCardsView.swift */,
+			);
+			path = UsedCardsView;
+			sourceTree = "<group>";
+		};
+		0AEBBEB025F362360035CB24 /* GameScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A06C64F25FC2F8A00826A08 /* SubViews */,
+				0AEBBEB125F362490035CB24 /* GameScreen.swift */,
+				0AEBBEB525F3626B0035CB24 /* GameViewModel.swift */,
+			);
+			path = GameScreen;
+			sourceTree = "<group>";
+		};
+		0AFEB68425FC7957002BF59A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0AFEB68525FC7967002BF59A /* MotherView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0AFEB69125FC79AF002BF59A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0AFEB68D25FC79AA002BF59A /* AppStateContainer.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD6F53125F342920078B6FF /* King's Cup (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD6F54625F342920078B6FF /* Build configuration list for PBXNativeTarget "King's Cup (iOS)" */;
+			buildPhases = (
+				0AD6F52E25F342920078B6FF /* Sources */,
+				0AD6F52F25F342920078B6FF /* Frameworks */,
+				0AD6F53025F342920078B6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "King's Cup (iOS)";
+			productName = "King's Cup (iOS)";
+			productReference = 0AD6F53225F342920078B6FF /* King's Cup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AD6F53925F342920078B6FF /* King's Cup (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AD6F54925F342920078B6FF /* Build configuration list for PBXNativeTarget "King's Cup (macOS)" */;
+			buildPhases = (
+				0AD6F53625F342920078B6FF /* Sources */,
+				0AD6F53725F342920078B6FF /* Frameworks */,
+				0AD6F53825F342920078B6FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "King's Cup (macOS)";
+			productName = "King's Cup (macOS)";
+			productReference = 0AD6F53A25F342920078B6FF /* King's Cup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AD6F52625F342870078B6FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0AD6F53125F342920078B6FF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0AD6F53925F342920078B6FF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 0AD6F52925F342870078B6FF /* Build configuration list for PBXProject "King's Cup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AD6F52525F342870078B6FF;
+			productRefGroup = 0AD6F53325F342920078B6FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AD6F53125F342920078B6FF /* King's Cup (iOS) */,
+				0AD6F53925F342920078B6FF /* King's Cup (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD6F53025F342920078B6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD6F54225F342920078B6FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD6F53825F342920078B6FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD6F54325F342920078B6FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AD6F52E25F342920078B6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5C6A4125F573340017AF63 /* color-extension.swift in Sources */,
+				0AEBBEB225F362490035CB24 /* GameScreen.swift in Sources */,
+				0AE8188525F998A500C78989 /* CardPile.swift in Sources */,
+				0A2C145E25FC91B900DE9746 /* AnimatedBackground.swift in Sources */,
+				0A74DB6B25FD676000C62332 /* RandomAnimatedGrid.swift in Sources */,
+				0AEBBE8C25F34C1F0035CB24 /* Rank.swift in Sources */,
+				0AFEB68625FC7967002BF59A /* MotherView.swift in Sources */,
+				0A5C6A6225F6E3190017AF63 /* SelectionButtonStyle.swift in Sources */,
+				0AEBBEB625F3626B0035CB24 /* GameViewModel.swift in Sources */,
+				0A5C6A5B25F6E0170017AF63 /* MenuScreen.swift in Sources */,
+				0AEBBE9425F34C740035CB24 /* Card.swift in Sources */,
+				0AEBBE9025F34C5C0035CB24 /* Suit.swift in Sources */,
+				0AE8187525F9915100C78989 /* CurrentCardDetail.swift in Sources */,
+				0AE8188125F9974200C78989 /* CardBackView.swift in Sources */,
+				0A5C6A5325F602480017AF63 /* PlayingCard.swift in Sources */,
+				0A5C6A5E25F6E0630017AF63 /* WelcomeScreen.swift in Sources */,
+				0A06C65425FC33B200826A08 /* HowToPlayScreen.swift in Sources */,
+				0A2C146225FCB52700DE9746 /* UserInterfaceSizeClass.swift in Sources */,
+				0AB3C54425F73068004C3EE2 /* Image+Extension.swift in Sources */,
+				0AEBBE9E25F34F290035CB24 /* UsedCardsView.swift in Sources */,
+				0AE8186D25F985A800C78989 /* GameHUD.swift in Sources */,
+				0AE8187125F98C1400C78989 /* DragState.swift in Sources */,
+				0AD6F53E25F342920078B6FF /* King_s_CupApp.swift in Sources */,
+				0AB3C51725F6F681004C3EE2 /* FlipEffect.swift in Sources */,
+				0AFEB68E25FC79AA002BF59A /* AppStateContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AD6F53625F342920078B6FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD6F53F25F342920078B6FF /* King_s_CupApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0AD6F54425F342920078B6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AD6F54525F342920078B6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0AD6F54725F342920078B6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FR9D6557V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwong.King-s-Cup";
+				PRODUCT_NAME = "King's Cup";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AD6F54825F342920078B6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FR9D6557V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwong.King-s-Cup";
+				PRODUCT_NAME = "King's Cup";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AD6F54A25F342920078B6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwong.King-s-Cup";
+				PRODUCT_NAME = "King's Cup";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0AD6F54B25F342920078B6FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwong.King-s-Cup";
+				PRODUCT_NAME = "King's Cup";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AD6F52925F342870078B6FF /* Build configuration list for PBXProject "King's Cup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD6F54425F342920078B6FF /* Debug */,
+				0AD6F54525F342920078B6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD6F54625F342920078B6FF /* Build configuration list for PBXNativeTarget "King's Cup (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD6F54725F342920078B6FF /* Debug */,
+				0AD6F54825F342920078B6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AD6F54925F342920078B6FF /* Build configuration list for PBXNativeTarget "King's Cup (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AD6F54A25F342920078B6FF /* Debug */,
+				0AD6F54B25F342920078B6FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AD6F52625F342870078B6FF /* Project object */;
+}
