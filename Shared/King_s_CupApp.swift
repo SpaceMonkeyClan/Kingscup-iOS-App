@@ -2,7 +2,7 @@
 //  King_s_CupApp.swift
 //  Shared
 //
-//  Created by Jack Wong on 3/5/21.
+//  Created by Rene Dena on 3/5/21.
 //
 
 import SwiftUI

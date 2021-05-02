@@ -2,7 +2,7 @@
 //  PlayingCard.swift
 //  King's Cup (iOS)
 //
-//  Created by Jack Wong on 3/8/21.
+//  Created by Rene Dena on 3/8/21.
 //
 
 import SwiftUI
