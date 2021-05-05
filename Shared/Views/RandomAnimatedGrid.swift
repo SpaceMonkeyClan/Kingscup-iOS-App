@@ -2,7 +2,7 @@
 //  RandomAnimatedGrid.swift
 //  King's Cup (iOS)
 //
-//  Created by Jack Wong on 3/13/21.
+//  Created by Rene Dena on 3/13/21.
 //
 
 import SwiftUI
