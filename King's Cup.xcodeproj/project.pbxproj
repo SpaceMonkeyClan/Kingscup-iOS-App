@@ -515,7 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwong.King-s-Cup";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.KingsCup;
 				PRODUCT_NAME = "King's Cup";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -537,7 +537,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jackwong.King-s-Cup";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.KingsCup;
 				PRODUCT_NAME = "King's Cup";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
