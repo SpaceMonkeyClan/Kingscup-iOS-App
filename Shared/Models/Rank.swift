@@ -31,11 +31,11 @@ enum Rank: String, CaseIterable {
         case .three:
             return "Me"
         case .four:
-            return "Floor"
+            return "More"
         case .five:
-            return "Kings"
+            return "Guys"
         case .six:
-            return "Queens"
+            return "Chicks"
         case .seven:
             return "Heaven"
         case .eight:
@@ -45,9 +45,9 @@ enum Rank: String, CaseIterable {
         case .ten:
             return "Categories"
         case .jack:
-            return "Rule"
+            return "Never Have I Ever"
         case .queen:
-            return "Questions"
+            return "Question Master"
         case .king:
             return "King's Cup"
         }
@@ -62,13 +62,13 @@ enum Rank: String, CaseIterable {
         case .three:
             return "You drink."
         case .four:
-            return "The last person to touch the floor drinks"
+            return "Everyone cheers and drinks a lil' more!"
         case .five:
-            return "All those who identify as a King drink."
+            return "All guys drink."
         case .six:
-            return "All those who identify as a Queen drink."
+            return "All girls drink."
         case .seven:
-            return "All players raise their hands above their heads. The last person to do so drinks."
+            return "All players point to sky with both hands. The last person to do so drinks."
         case .eight:
             return "Choose someone to be your mate. For the rest of the game, they drink when you drink."
         case .nine:
@@ -76,11 +76,11 @@ enum Rank: String, CaseIterable {
         case .ten:
             return "Go around the room naming things belonging to a category until someone fails. The person who failed takes a drink."
         case .jack:
-            return "Set a rule to be followed, e.g. stand on one foot when you drink. Anyone who breaks that rule must drink."
+            return "Play one round of never have I ever."
         case .queen:
             return "Anybody who answers a question asked by you must drink."
         case .king:
-            return "When each of the first 3 Kings is drawn, the person who drew it puts some of their drink into the King's Cup in the center of the table. When the 4th King is drawn, the person who drew it must drink the entire King's Cup.)"
+            return "Set a rule and pour some of your drink into the kings cup in the center of the table. Whoever pulls the 4th King must drink the entire king's cup!"
         }
     }
 }
